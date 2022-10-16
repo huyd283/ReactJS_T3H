@@ -1,0 +1,168 @@
+*{
+   margin: 0;
+   padding: 0; 
+   font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    position: relative;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.l-container{
+    width: 70%;
+}
+.r-container{
+    width: 30%;
+}
+h1 {
+    text-align: center;
+    margin-top: 80px;
+    
+}
+h1,h2,h3{
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.slogan{
+    text-align: center;
+    margin-top: 30px;
+}
+.slogan p span{
+    background-color:grey;
+}
+.para1{
+    margin-top: 30px;
+    height: 650px;
+    background-color: rgb(231, 226, 220);
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(194, 189, 189);
+    position: relative; 
+}
+.img1{
+    /* background-attachment: fixed;
+    background-size: cover; */
+    width: 100%;
+}
+h2{
+    margin-top: 20px;
+}
+.p1, .p2{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.readmore{
+    position: absolute;
+    text-transform: uppercase;
+    left: 30px;
+    bottom: 30px;
+}
+.readmore:hover{
+    cursor: pointer;
+}
+.cmt{
+   position: absolute;
+   right: 30px;
+   bottom: 30px; 
+}
+.para2{
+    margin-left: 20px;
+    margin-top: 30px;
+    height: auto;
+    background-color: rgb(231, 226, 220);
+    box-shadow: 5px 5px 5px 5px rgb(194, 189, 189);
+    position: relative;
+
+}
+
+.para3{
+    margin-top: 30px;
+    height: 650px;
+    background-color: rgb(231, 226, 220);
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(194, 189, 189);
+    position: relative; 
+
+}
+
+
+ .para4{
+    margin-left: 20px;
+    margin-top: 30px;
+    height: auto;
+    background-color: rgb(231, 226, 220);
+    box-shadow: 5px 5px 5px 5px rgb(194, 189, 189);
+    position: relative;
+
+
+} 
+.title{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-size: 34px;
+}
+.para4 > ul > li{
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 10px;
+}
+.para4 > ul > li:hover{
+    background-color: coral;
+}
+ul > li > img{
+    width: 85px;
+    height: 85px;
+    margin-right: 15px ;
+}
+footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 120px;
+    background-color:grey;
+    position: relative;
+    bottom: 0px;
+}
+.pre{
+    width: 100px;
+    height: 40px;
+    background-color: antiquewhite;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.next{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+.next:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+.para5{
+    margin-left: 20px;
+    margin-top: 30px;
+    height: auto;
+    background-color: rgb(231, 226, 220);
+    box-shadow: 5px 5px 5px 5px rgb(194, 189, 189);
+    position: relative;
+}
+.tag{
+    width: 100%;
+    height: 80px;
+    /* margin-left: 40px; */
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    background-color: rgb(185, 160, 160);
+}
